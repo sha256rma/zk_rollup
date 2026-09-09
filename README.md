@@ -1,5 +1,22 @@
 # simple-zk-rollup
 
+> ## Attribution
+>
+> The tutorial text below and the circuit scaffolding are adapted from
+> [tanpx12/simple-zk-rollup](https://github.com/tanpx12/simple-zk-rollup),
+> which is the original work. This README is substantially that project's
+> README, and 12 of the source files here come from it unchanged.
+>
+> What is mine is the worked output: the compiled circuits, witnesses, proving
+> parameters, proofs and generated Solidity verifiers under `example/` and
+> `multiply/`, which are 28 of the 49 non-dependency files in this repository.
+> I built this to learn the Circom, SnarkJS and zkutil toolchain end to end,
+> not as original protocol work.
+>
+> Neither this repository nor the upstream carries a licence, so treat the
+> upstream author's terms as governing anything derived from their portion.
+
+
 
 ## Prerequire:
 - In order to run this tutorial, you need to install these following tools:
